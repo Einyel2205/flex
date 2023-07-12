@@ -6,7 +6,8 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    align-content: center;
+    justify-content: space-evenly;
 }
 img{
     height: 80px;
@@ -14,24 +15,22 @@ img{
 }
 ul{
     display: flex;
-    justify-content: space-around;
-    gap: 100px;
+    justify-content: space-between;
+    width: 600px;
+}
+li{
+    list-style: none;
 }
 a{
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
     text-decoration: none;
-    
 }
-#lenguajes{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+input{
+    background-color: #a9a9a9;
+    color: #fff;
+    border: none;
+    width: 65px;
+    height: 65px;
 }
-#lenguajes button{
-    height: 80px;
-    width: 80px;
-    font-size: 20px;
-    background-color:#8b8b8b;
-    color: white;
-}
+
