@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 40px;
+}
+ul li{
+    display: flex;
+    gap: 100px;
+    height: 40px;
+}
